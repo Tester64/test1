@@ -15,17 +15,17 @@ echo.
 %wait% color 0B
 echo add all:
 %wait% color 0F
-rem !!!!! git add -A stages All
-rem !!!!! git add . stages new and modified, without deleted
-rem !!!!! git add -u stages modified and deleted, without new
-"%git%" add -A
 
 echo.
 %wait% color 0B
 echo import from GitHub.com
 echo import from BitBucket.org
+
+rem создаем папку - копию рабочего/текущего(?) репозитория из другой папки. Но это не синхронизация!!!
 %wait% color 0F
-echo "%git%" clone https://code.google.com/p/chromemilk/
+set cmd= clone d:\Prj_4\git\repo_github\test_1 prj_path
+echo git %cmd%
+"%git%" %cmd%
 
 echo.
 %wait% wait 30

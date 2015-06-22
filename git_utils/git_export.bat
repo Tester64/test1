@@ -20,12 +20,23 @@ rem !!!!! git add . stages new and modified, without deleted
 rem !!!!! git add -u stages modified and deleted, without new
 "%git%" add -A
 
+set github_login=Tester64
+
 echo.
 %wait% color 0B
 echo export to GitHub.com
 echo export to BitBucket.org
+
 %wait% color 0F
-echo "%git%" clone https://code.google.com/p/chromemilk/
+rem echo "%git%" clone https://code.google.com/p/chromemilk/
+set cmd=remote add origin git@github.com:%github_login%/new_repo.git
+echo git %cmd%
+"%git%" %cmd%
+
+set cmd=git push -u origin master
+echo git %cmd%
+"%git%" %cmd%
+rem "%git%" push
 
 echo.
 %wait% wait 30
