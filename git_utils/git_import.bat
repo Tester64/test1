@@ -21,7 +21,7 @@ echo.
 echo import from GitHub.com
 echo import from BitBucket.org
 
-rem создаем папку - копию рабочего/текущего(?) репозитория из другой папки. Но это не синхронизация!!!
+rem создаем папку - копию рабочего/текущего(?) репозитория из другой папки. Но это НЕ синхронизация!!!
 %wait% color 0F
 set cmd= clone d:\Prj_4\git\repo_github\test_1 prj_path
 echo git %cmd%
