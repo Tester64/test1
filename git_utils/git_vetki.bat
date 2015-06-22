@@ -22,9 +22,9 @@ echo Vetki2:
 
 echo.
 %wait% color 0B
-echo Vetki2:
+echo Vetki3:
 %wait% color 0F
-"%git%" branch --merged -v
+"%git%" branch --edit-description
 
 rem Активируем ветку "Рабочая"
 rem "%git%" checkout "Рабочая"
