@@ -38,6 +38,10 @@ echo git %cmd%
 rem set cmd=git push -u origin master
 rem set cmd=git push -u upstream master
 set cmd=-c diff.mnemonicprefix=false -c core.quotepath=false push -v --tags bitbucket_Tester64_test1 master:master
+set cmd=pull
+set cmd=push
+set cmd=fetch
+
 echo git %cmd%
 "%git%" %cmd%
 rem "%git%" push
