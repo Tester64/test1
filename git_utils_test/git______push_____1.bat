@@ -31,6 +31,10 @@ echo ----------------------------
 rem Когда вы хотите поделиться своими наработками, вам необходимо отправить (push) их в главный репозиторий.
 rem echo "%git%" push github1 [ветка]
 rem "%git%" push origin master
+"%git%" push gitfile1
+echo -------------
+"%git%" push gitfile1 NewVersion
+echo -------------
 "%git%" push gitfile1 VersionOld
 echo ----------------------------
 rem Переименовываем удаленный репозиторий.
