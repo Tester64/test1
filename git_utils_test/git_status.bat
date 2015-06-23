@@ -31,12 +31,6 @@ echo config --list:
 echo.
 "%git%" config --list
 
-echo.
-%wait% color 0B
-echo diff --cached:
-%wait% color 0F
-echo "%git%" diff --cached
-
 rem "%git%" config
 rem pause
 
@@ -46,5 +40,12 @@ rem "%git%" --help
 %wait% wait 30
 exit
 pause
+
+
+echo.
+%wait% color 0B
+echo diff --cached:
+%wait% color 0F
+echo "%git%" diff --cached
 
 "c:\Program Files (x86)\Git\cmd\git.exe" clone https://code.google.com/p/chromemilk/
