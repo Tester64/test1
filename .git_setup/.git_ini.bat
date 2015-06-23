@@ -23,7 +23,7 @@ set github_3_path=
 
 rem BitBucket
 set bitbucket_1_path=https://bitbucket.org/Tester64/test1
-set bitbucket_2_path=
-set bitbucket_3_path=
+set bitbucket_2_path=https://Tester64@bitbucket.org/Tester64/test1.git
+set bitbucket_3_path=git@bitbucket.org:Tester64/test1.git
 
 rem +++
