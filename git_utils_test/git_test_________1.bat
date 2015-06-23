@@ -27,6 +27,10 @@ echo diff:
 echo on
 rem 
 echo ----------------------------
+"%git%" pull
+pause
+
+echo ----------------------------
 "%git%" config --local --list
 rem pause
 echo ----------------------------
