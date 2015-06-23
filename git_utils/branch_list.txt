@@ -1,10 +1,2 @@
   NewVersion
 * VersionOld
-  NewVersion
-* VersionOld
-  NewVersion
-* VersionOld
-  NewVersion
-* VersionOld
-  NewVersion
-* VersionOld

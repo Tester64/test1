@@ -13,7 +13,7 @@ echo Vetki:
 %wait% color 0F
 rem Список веток. Звездочкой помечена активная. Не помешает дата создания и последней синхронизации.
 "%git%" branch
-"%git%" branch >> d:\Prj_4\git\repo_github\test_1\git_utils\branch_list.txt
+"%git%" branch > %prj_path%\git_utils\branch_list.txt
 
 rem Активируем ветку "Рабочая"
 rem "%git%" checkout "Рабочая"
