@@ -18,10 +18,8 @@ echo repositories:
 echo ----------------------------
 rem echo on
 rem добавь в ssh ключи
-rem 
-"%git_path%bin\ssh-agent.exe" -s
-rem 
-"%git_path%bin\ssh-add.exe" "d:\Prj_4\git\git_global\test_1\.git_setup\test1_github1\id_rsa"
+rem "%git_path%bin\ssh-agent.exe" -s
+rem "%git_path%bin\ssh-add.exe" "d:\Prj_4\git\git_global\test_1\.git_setup\test1_github1\id_rsa"
 rem "%git_path%bin\ssh-add.exe"
 rem "%git_path%bin\ssh-add.exe" /?
 
