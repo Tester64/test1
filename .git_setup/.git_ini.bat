@@ -11,7 +11,8 @@ rem Основной ВНЕШНИЙ репозиторий
 set origin_path=git@github.com:Tester64/new_repo.git
 
 rem файловые репозитории, или на флешке, или сетевой путь
-set gitfile_1_path=d:\Prj_4\git\git_global\test_5\
+set gitfile_0_path=d:\Prj_4\git\git_global\test_5\.git
+set gitfile_1_path=d:/Prj_4/git/git_global/test_5/.git
 set gitfile_2_path=
 set gitfile_3_path=
 

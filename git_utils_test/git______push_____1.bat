@@ -29,9 +29,9 @@ echo "%git%" fetch github1
 "%git%" fetch gitfile1
 echo ----------------------------
 rem Когда вы хотите поделиться своими наработками, вам необходимо отправить (push) их в главный репозиторий.
-echo "%git%" push github1 [ветка]
+rem echo "%git%" push github1 [ветка]
 rem "%git%" push origin master
-"%git%" push gitfile1
+"%git%" push gitfile1 VersionOld
 echo ----------------------------
 rem Переименовываем удаленный репозиторий.
 echo "%git%" remote rename github1 github100
