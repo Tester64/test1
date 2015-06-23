@@ -31,6 +31,8 @@ echo ----------------------------
 rem ”ƒјЋя≈ћ удаленный репозиторий из списка.
 echo .
 "%git%" remote rm github1
+"%git%" remote rm test_2
+"%git%" remote rm upstream
 echo ----------------------------
 "%git%" remote -v
 echo ----------------------------
