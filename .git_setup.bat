@@ -10,7 +10,6 @@ set gitfile_1_path=d:\Prj_4\git\git_global\test_4
 set gitfile_2_path=
 set gitfile_3_path=
 
-
 rem GitHub
 set github_1_path=https://bitbucket.org/Tester64/test1
 set github_2_path=https://bitbucket.org/Tester64/test2
