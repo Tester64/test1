@@ -17,8 +17,8 @@ set gitfile_2_path=
 set gitfile_3_path=
 
 rem GitHub
-set github_1_path=https://bitbucket.org/Tester64/test1
-set github_2_path=https://bitbucket.org/Tester64/test2
+set github_1_path=https://github.com/Tester64/test1
+set github_2_path=https://github.com/Tester64/test2
 set github_3_path=
 
 rem BitBucket
