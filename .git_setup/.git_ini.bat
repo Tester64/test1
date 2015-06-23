@@ -5,6 +5,9 @@ set git_path=c:\Program Files (x86)\Git\
 set git=%git_path%cmd\git.exe
 set prj_path=%~d0%~p0
 
+rem Основной ВНЕШНИЙ репозиторий
+set origin_path=git@github.com:Tester64/new_repo.git
+
 rem файловые репозитории, или на флешке, или сетевой путь
 set gitfile_1_path=d:\Prj_4\git\git_global\test_4
 set gitfile_2_path=

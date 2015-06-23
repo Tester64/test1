@@ -22,12 +22,16 @@ echo.
 %wait% color 0B
 echo diff:
 %wait% color 0F
-"%git%" diff
+echo "%git%" diff
 
 echo on
 rem 
 echo ----------------------------
-"%git%" pull
+echo repositories:
+"%git%" remote
+echo ----------------------------
+"%git%" remote -v
+echo ----------------------------
 pause
 
 echo ----------------------------
