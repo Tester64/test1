@@ -29,11 +29,16 @@ echo export to BitBucket.org
 
 %wait% color 0F
 rem echo "%git%" clone https://code.google.com/p/chromemilk/
-set cmd=remote add origin git@github.com:%github_login%/new_repo.git
+rem set cmd=remote add origin git@github.com:%github_login%/new_repo.git
+rem git remote add upstream https://github.com/octocat/Spoon-Knife.git
+set cmd=remote add upstream https://Tester64@bitbucket.org/Tester64/test1.git
 echo git %cmd%
 "%git%" %cmd%
 
-set cmd=git push -u origin master
+rem set cmd=git push -u origin master
+rem set cmd=git push -u upstream master
+set cmd=-c diff.mnemonicprefix=false -c core.quotepath=false push -v --tags bitbucket_Tester64_test1 master:master
+
 echo git %cmd%
 "%git%" %cmd%
 rem "%git%" push
