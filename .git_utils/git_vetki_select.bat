@@ -3,7 +3,7 @@
 
 cd ..
 
-call .git_setup.bat
+call .git_setup\.git_ini.bat 
 
 rem %wait% colors
 
